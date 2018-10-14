@@ -20,3 +20,10 @@
 .App-link {
   color: #61dafb;
 }
+
+button {
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+  min-height: 5vh;
+}
