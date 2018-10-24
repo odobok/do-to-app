@@ -1,21 +1,18 @@
-class Header extends React.Component {
-  render() {
-    return (
-      <div className="header">
-        <div className="menu"></div>
+import React from 'react';
+import logo from './logo.png';
+import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-        <span className="title">Due To</span>
+const Header = () => (
+  <Router>
+    <header className="App-header">
+      <h1>Due To</h1>
+      <img src={logo} className="App-logo" alt="logo" />
+    <p>
+      Welcome to your app for collaborative work.
+    </p>
+    </header>
+    </Router>
+);
 
-        <input
-          type="button"
-          className="addButton"
-          placeholder="Add..." />
-
-        <div className="addIcon"></div>
-      </div>
-    )
-  }
-}
-
-/*this document adds the bones of a header. will need all classNames defined - where? - and buttons to create in css*/
-/*figure out how to call this in after login --> see if Blockstack stuff is helpful here*/ 
+export default Header;
