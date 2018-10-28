@@ -27,3 +27,40 @@ button {
   text-transform: uppercase;
   min-height: 5vh;
 }
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav */
+.Nav-logo {
+  height: 50px;
+}
+
+.Nav-header {
+  background-color: blue;
+  max-height: 20vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Groups Page*/
+.icon {
+  height: 50px;
+}
+
+.Groups {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5%;
+}
+
+.Groups-parsing {
+  justify-self: center;
+  align-self: center;
+}

@@ -6,8 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 const Nav = () => (
   <Router>
     <nav className="Nav-header">
-      <h4>Due To</h4>
-      <img src={logo} className="App-logo" alt="logo" />
+      <div><h4 className="Nav-mini">Due To</h4></div>
+      <div><img src={logo} className="Nav-logo" alt="logo" /></div>
     </nav>
     </Router>
 );
